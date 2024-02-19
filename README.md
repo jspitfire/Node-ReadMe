@@ -20,16 +20,17 @@ For best experience use external terminal
 * 2 Run the command `npm i` to install packages required (e.g. inquirer, fs)
 * 3 Run the command `node index.js`
 * 4 Answer prompts generated in terminal: 
-        - Title: Enter text 
-        - Short description: Enter text
-        - Installation instructions: Will provide default `npm i`, press enter to accept, or overwrite manually
-        - Usage information: Enter text
-        - License: Select from dropdown (this will generate a badge)
-        - Contributing information: Enter text
-        - Test information: Will provide default `npm test`, press enter to accept, or overwrite manually
-        - Github username: Enter text for username
-        - Email address: Enter text for email address
-        - Info for questions: If the above two (Github username and Email address) are entered, these will display under a "Questions" title if your answer is left blank, otherwise enter text to create a message that will overwrite this.
+
+       -  Title: Enter text 
+       -  Short description: Enter text
+       -  Installation instructions: Will provide default `npm i`, press enter to accept, or overwrite manually
+       -  Usage information: Enter text
+       -  License: Select from dropdown (this will generate a badge)
+       -  Contributing information: Enter text
+       -  Test information: Will provide default `npm test`, press enter to accept, or overwrite manually
+       -  Github username: Enter text for username
+       -  Email address: Enter text for email address
+       -  Info for questions: If the above two (Github username and Email address) are entered, these will display under a "Questions" title if your answer is left blank, otherwise enter text to create a message that will overwrite this.
 
 ## Criteria
 

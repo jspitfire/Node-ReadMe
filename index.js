@@ -95,20 +95,6 @@ function init() {
 
       filteredAnswers.questions = questionsMessage;
 
-      // // Replace email address with GitHub username in questions
-      // const defaultEmail = `${emailAddress}`;
-
-      // let defaultQuestions = `If you have any questions about the repo, contact me directly at ${defaultEmail}.`;
-
-      // // Add GitHub username to default questions if provided
-      // if (answers.githubUsername.trim() !== "") {
-      //   const githubLink = `You can find more of my work at https://github.com/${answers.githubUsername}`;
-      //   defaultQuestions += ` ${githubLink}`;
-      // }
-      // filteredAnswers.questions = answers.questions.replace(/email@emailaddress\.com/, defaultEmail);
-
-
-
       // Generate license badge URL based on user's selection
       const licenseBadge = generateLicenseBadge(filteredAnswers.license);
       // Add license badge URL to answers object
